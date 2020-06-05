@@ -1,0 +1,177 @@
+
+/*********************** Tag editor ********************/
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	text-align: center;
+} 
+
+p{
+	color: #8f8f8f;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	line-height: 1.5;	
+}
+
+/* Headers */
+
+.big-header{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+/* Sections */
+
+.colored-section{
+	background-color: #ff4c68;
+	color:  #fff;
+}
+
+.white-section{
+	background-color: #fff;
+	color: rgb(54, 54, 54);
+}
+
+/* Title section */
+
+#title{
+	text-align: left;
+	padding-bottom: 50px;
+
+}
+
+.container-fluid{
+	padding: 3% 15%;
+	position: relative;
+}
+
+.navbar{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.1rem;
+	padding: 0 0 2.5rem;
+	
+}
+
+.nav-item{
+	padding: 0 20px;
+}
+
+.nav-link{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+.navbar-brand{
+	font-size: 2.5rem;	
+}
+
+.iphone-img{
+	
+	margin-top: 15px;
+	transform: rotate(30deg);
+	width: 55%;
+	position: absolute;
+	right: 35%;
+}
+
+.download-btn{
+	margin: 5% 3% 0 0;
+}
+
+@media (max-width: 1024px){
+	
+	#title{
+		text-align: center;
+	}
+
+	.iphone-img{
+		position: static;
+		transform: rotate(0);
+	}
+}
+
+/* Feature section */
+
+#features{
+	padding: 5% 0;
+	position: relative;
+}
+
+.feature-box{
+	padding: 0 2%;
+}
+
+.feature-icon{
+	color: #ef8172;
+	margin-bottom: 1.3rem;
+}
+
+.feature-icon:hover{
+	color: #ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials{
+	background-color: #ef8172;
+}
+
+.carousel-item{
+	padding: 5% 20%;
+}
+
+.testimonial-text{
+	font-size: 2.5rem;
+}
+
+.testimonial-img{
+	width:12%;
+	border-radius: 100%;
+	padding:10px;
+}
+
+/* Press section */
+
+#press{
+	background-color: #ef8172;
+	padding-bottom: 4%;	
+}
+
+.press-img{
+	width: 15%;
+	padding: 3% 3%;
+}
+
+/* Pricing section */
+
+#pricing{
+	padding: 5%;
+}
+
+.price-column{
+	padding: 2%;
+}
+
+
+/* CTA section */
+
+#cta{
+	padding: 5% 20%;
+}
+
+/* footer */
+
+#footer{
+	margin: 5%;
+}
+
+.footer-icon{
+	margin: 2% 1%;
+}
+
+
